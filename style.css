@@ -1,0 +1,200 @@
+/*GERAL*/
+
+/* @media screen {
+    
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.img-menu {
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9) 5%,
+        rgba(0, 0, 0, 0.2) 20%,
+        rgba(0, 0, 0, 0.2) 80%,
+        rgba(0, 0, 0, 0.8) 100%
+      ),
+      url(/img/spiderHeadCena.svg);
+    background-size: cover;
+    padding: 0.26rem 0.75rem 0 0.75rem;
+  } 
+
+/* {
+    background: url(/img/spiderHeadCena.svg) no-repeat center; 
+    box-shadow: inset 0px 0px 100px 20px black;
+    height: 100vh;
+    -> primeiro código.
+    
+}  */
+
+p {
+    color: white;
+}
+
+/*MARGIN E PADDING PADRÃO*/
+
+/*MENU*/
+#menu {
+    display: flex;
+    justify-content: space-between; /*ajusta elemento horizontalmente, direita e esquerda (x)*/
+    padding: 15px 55px;
+    background: rgb(255,255,255);
+    background: linear-gradient(360deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+}
+
+.img-menu {
+    margin: auto 0;
+} 
+
+.logo-netflix {
+    display: block;
+    width: 120px;
+}
+/*NAV*/
+#container-nav {
+    display: flex;
+    align-items: center; /*ajusta elemento cima e baixo (y) -> dependendo do flex-direction altera a regra de posicionamento*/
+    gap: 4rem;
+}
+
+nav a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    transition: color 0.2s ease; /* propriedade, timing, forma de passagem*/
+}
+
+nav a:hover { 
+    color: rgb(157, 156, 156); 
+    font-weight: 500;
+}
+
+#container-pesquisar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/*PRINCIPAL*/
+.logo-filme {
+    width: 550px;
+}
+
+#principal p {
+    font-weight: 300;
+    display: block;
+    width: 420px;
+    padding: 16px 0;
+    line-height: 19px;
+}
+
+/*CONTEÚDO*/
+#container {
+    margin: 0 55px;
+}
+
+#buttons {
+    margin: 16px 0 80px 0;
+    display: flex;
+    gap: 2.5px;
+}
+
+#buttons button { 
+    background: #333;
+    display: flex;
+    padding: 12px 32px;
+    border-radius: 5px; 
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    color: white;
+    font-size: 18px;
+    margin-right: 12px;
+    transition: color 0.2s ease; /*property, delay e timing-function*/
+}
+
+#buttons button:nth-child(1) {
+    background-color: #ffffff;
+}
+
+
+#buttons button:nth-child(1) span {
+    color: #000000;
+}
+
+/* button:hover {
+    color: white;
+}  */
+
+.buttons img {
+   justify-content: center;
+   align-items: center;
+}
+/*SECTIONS*/
+.section {
+    /* margin-bottom: 16px;
+    padding-top: 16px;
+    display: inline; */
+    display: grid;
+    grid-template-areas: "main";
+    grid-gap: 1rem;
+}
+
+.section h2 {
+    padding: 24px 0 8px 0;
+    font-weight: bolder;
+    text-decoration:solid;
+ } 
+
+.section img {
+    width: 270px;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px 0px;
+}
+
+.redes-sociais img {  
+    margin: 0 55px;
+}
+
+.info-extra {
+    display: flex;
+    width: 150vh;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 55px;
+}
+
+#foot p{
+    padding: 0 55px;
+    margin: 16px 0;
+    font-size: 12px;
+    color: rgb(203, 203, 203);
+}
+
+ul, li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 12px;
+    margin-top: 12px;
+    color: rgb(203, 203, 203);
+}
+
+/* PARA TRANSIÇÃO: FILL E STROKE -> PESQUISAR DPS */
