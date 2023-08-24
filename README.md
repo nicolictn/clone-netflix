@@ -6,7 +6,7 @@ Clone Netflix<br/>
 <br>
 
 <p align="center">
-  (https://clone-netflix-gamma-ten.vercel.app/)[<img alt="projeto Clone Netflix" src="/img/netfli8x-project.jpg" width="100%">]
+  (https://clone-netflix-gamma-ten.vercel.app/)[img alt="projeto Clone Netflix" src="/img/netfli8x-project.jpg" width="100%"]
 </p>
 
 ## 🚀 Tecnologias
