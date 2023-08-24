@@ -1,5 +1,6 @@
-<h1 align="center">[Clone Netflix](https://clone-netflix-gamma-ten.vercel.app/)</h1>
+<h1 align="center">Clone Netflix</h1>
 
+<p align="center"> Acesse para visualizar: https://clone-netflix-gamma-ten.vercel.app/</p>
 <br>
 
 <p align="center">
